@@ -1,0 +1,11 @@
+parameters:
+  level: 8
+  paths:
+    - X.php
+  parallel:
+    processTimeout: 300.0
+    jobSize: 60
+    minimumNumberOfJobsPerProcess: 5
+  checkGenericClassInNonGenericObjectType: false
+  bootstrapFiles:
+    - phpstan-bootstrap.php
